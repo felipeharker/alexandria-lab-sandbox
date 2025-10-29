@@ -1,0 +1,19 @@
+resource name,type (PDF / web / data / graphic),content type,notes,value (low / med / high)
+
+grasshopper-manual,PDF,reference documentation,gold standard for any information related to vanilla grasshopper and its functionality; components; etc,high
+
+grasshopper-algorithmic-modeling-for-product-platform-customization,PDF,research journal,product/industrial design applications for parametric apps (grasshopper),high
+
+control-of-geo-using-grasshopper,PDF,research journal,examining the creation of patterns and geometric form with parametric design tools; mostly 2D,high
+
+parametric-modeling-in-architectural-built-form,PDF,research journal,larger scale (architectural) design applications for parametric design processes (grasshopper),high
+
+voronoi-diagrams-definitions-formal-properties,PDF,experimental literature,employed LLM to write and conduct research on voronoi algorithms; this is low quality relative to other documents and resources listed above,low
+
+parametric-modeling-in-architectural-design,PDF,experimental literature,employed LLM to write and conduct research on parametric modeling in architectural design; this is low quality relative to other documents and resources listed above,low
+
+alexandria-labs-roadmap,PDF,experimental literature,self-authored document outlining the goals; materials; methods; and standards employed by my parametric lab (Alexandria); low quality relative other documents listed above,low
+
+grasshopper-quickstart-guide,PDF,reference documentation,a simple yet expansive review of grasshopper features; function; interface; etc.,high
+
+grasshopper-keyboard-shortcuts,PDF,reference documentation,a one-page document for simple grasshopper functionality and keyboard shortcuts,med

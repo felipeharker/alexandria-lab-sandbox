@@ -1,0 +1,10 @@
+---
+name: OpenNest
+version: 1.5.1
+authors:
+- Petras Vestartas
+description: 2D Packing and Fabrication Utilities
+url: www.petrasvestartas.com
+keywords:
+- guid:791ece99-2fb5-4f58-816c-6250644a9de0
+platform: win

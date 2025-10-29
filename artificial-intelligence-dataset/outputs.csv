@@ -1,0 +1,9 @@
+title,description,code,bugs,fixes,feature requests,additional notes
+
+cell creator,generates a variety of grids based on user selection and allows for control over pattern; # of cells in x and y; cell size; and origin,cell creator.py,none,none,system of standardizing grids and grid choices. currently feels arbitrary,none
+
+cell patternizer,creates a variety of unique patterns based on grid cell inputs and other user conditions,cell patternizer.py,none,none,a stronger relationship between the cell creator and the patternizer. currently some cells break the patternizer and some patterns are weak. would like a relationship and some standardization of the work to make things easier to use and modify,none
+
+image sampler,creates a variable scale geometric array/grid based on the light and dark tonal values of a user defined image,image sampler.py,none,none,none,none
+
+cluster unlocker,remove and/or reset the password on a grasshopper cluster,cluster unlocker.cs,none,none,none,none
