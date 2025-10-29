@@ -1,43 +1,37 @@
-# Alexandria Lab
+# Alexandria Lab sandbox
 
-## Overview
-Alexandria is dedicated to the research and development of computational design processes. Specifically, Alexandria leverages artificial intelligence and parametric architectural design workflows to design, document, and fabricate interior and exterior architectural products.
+Alexandria Lab's sandbox is a safe workspace for iterating on Grasshopper tooling, research datasets, and reference literature before changes graduate to the primary repository. Use this space to prototype components, document experimental workflows, and practice contribution processes without impacting production assets.
 
+## What's inside
 
-[Alexandria Working Files Snapshot](https://1-alexandria-working-files.s3.us-east-1.amazonaws.com/alexandria-working-files.zip)
+| Area | Summary |
+| --- | --- |
+| `alexandria-application-files/` | Plugin binaries, user objects, scripts, and sandbox files that power the Alexandria Grasshopper experience. |
+| `artificial-intelligence-dataset/` | Prompt notebooks, structured CSV indices, and working notes that capture AI-assisted design research. |
+| `parametric-design-literature/` | Curated PDFs and manuals that inform computational design practices. |
+| `docs/` | Centralized documentation, including the user guide and contributor guide. |
 
-This link downloads a ZIP-archive of the current Alexandria Working Files. Updated regularly. Due to size, this ZIP-archive is hosted on AWS S3.
+## Documentation
 
-Note: this is a large (roughly 5GB) ZIP-archive. A more ganualar download menu is WIP.
+Two documentation tracks keep designers and contributors aligned:
 
-## Alexandria Project Wiki
+- **[User guide](docs/user-guide.md):** Installation steps, system requirements, and sandbox usage tips.
+- **[Contributor guide](docs/contributor-guide.md):** Repository standards, workflow expectations, and validation checklists.
 
-[Alexandria Project Wiki](https://github.com/felipeharker/alexandria-project/wiki#home)
+Review the contributor guide before opening pull requests so your updates follow the established conventions.
 
-## Objectives
+## Getting started
 
-- Conduct, compile, and publish research and documentation related to parametric/computational architectural design processes
-- Create a publicly accessible library of cataloged drawings designed by Alexandria, which serve as a (graphic, written, and physical) standard for production-ready products
-- Conduct research and develop working practices which include incorporate existing and new AI/LLM models to optimize pattern generation, create and deploy code, and conceptualize ideas with apps like ChatGPT, Claude, and Midjourney
-- Fabricate commercially-viable product samples using a variety of methods including laser-cutting, CNC-milling, and 3D-printing and materials such as aluminum, steel, ACM, and acrylic
-- Publish and maintain a publicly available application for Grasshopper workflows, designed and built by Alexandria Labs
+1. Clone the repository: `git clone https://github.com/alexandria-lab/alexandria-lab-sandbox.git`
+2. Read the [user guide](docs/user-guide.md) to install plugin assets and explore the sandbox examples.
+3. Follow the [contributor guide](docs/contributor-guide.md) when proposing changes, documenting research, or sharing new assets.
 
-## Specifications
+## Support and feedback
 
-Alexandria's flagship product and primary focus is Alexandria Grasshopper Plugin, a tool built for Rhinoceros 3D modeling application. The Plugin consists of a collection of user-facing components, a web-based knowledge center, and a companion document, which showcases some of the endless design possibilities Alexandria offers.
-Beyond the Plugin, Alexandria’s theoretical work will include research, essays, articles, and documentation to be made publicly available through the project website. The scope of research will include parametric/computational design, the role of artificial intelligence in the design process, and the broader applications of both in architectural design-build environments.
+Have questions or spot documentation gaps?
 
-## Project Outline
+- Open an issue describing the scenario, Rhino/Grasshopper versions, and expected outcome.
+- Propose improvements directly via pull request—include screenshots or renders for user-facing updates.
+- Reach out on the Alexandria Lab communication channels to coordinate larger documentation or tooling initiatives.
 
-### Alexandria Grasshopper Plugin (Public Application)
-
-Alexandria’s Grasshopper Plugin simplifies complex parametric design workflows while preserving customizability and user input, designed for quickly onboarding novice designers and for assisting experienced users with their existing workflows.
-
-### Parametric Design Companion Document and Design Catalog (Physical Media, PDF)
-
-The Companion Document is a compilation of designs built using Alexandria which are fabricable and commercially-viable. Given the virtually infinite possibilities of parametric design, the Document is not comprehensive, rather it should be viewed as reference material.
-The Design Catalog is a combination of client-facing print and physical media which offers tangible samples of the work created by Alexandria. Physical samples are 3D-printed, laser-cut, CNC-milled, etc. to showcase the breadth of Alexandria’s capabilities.
-
-### Online Knowledge Base and Project Hub (Web)
-
-Home to all of the work produced by Alexandria. Latest application releases, respective documentation as well as additional resources such as sample files (for download), case studies, and written research are available here. Each release (public beta, stable releases, and legacy) are published with accompanying sample files (called “Libraries”) and version release notes.
+Maintaining clear, user-friendly documentation ensures the sandbox remains a reliable launchpad for experimentation and learning.
